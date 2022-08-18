@@ -153,9 +153,12 @@ public class cash_operation {
 			case'5':
 				System.out.println("Username: ");
 				String tx_username=Utility.readString();
+				System.out.println("UserName\tCurrency\tBalance\n");
 				for(int i=0;i<transactions.size();i++) {
 					if(transactions.get(i)[0].equals(tx_username)) {
-						System.out.println(Arrays.toString(transactions.get(i)));
+						String detail=transactions.get(i)[0]+"\t"
+								+transactions.get(i)[1]+"\t"+transactions.get(i)[2]+"\n";
+						System.out.println(detail);
 					}
 				}
 			case'6':
