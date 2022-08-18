@@ -6,7 +6,7 @@ public class Utility {
 		char c;
 		for(;;) {
 			c = sc.next().charAt(0);
-			if(c!='1'&&c!='2'&&c!='3'&&c!='4') {
+			if(c!='0'&&c!='1'&&c!='2'&&c!='3'&&c!='4'&&c!='5'&&c!='6') {
 				System.out.print("Error, please input again：");
 			}else break;
 		}
