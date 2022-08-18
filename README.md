@@ -1,10 +1,12 @@
 # Cash_operation
 For OSL test
 
-The simple system is to handle account creation, deposit, withdrawal and transfer.
+The simple system is to handle account creation, deposit, withdrawal and transfer cash operation.
 
-All operations are listed in the command line interface. The user can just easily select one and follow the system instructions to complete the operation.
+Operations are listed in the command line interface. User can follow the instructions to input data and complete the operations.
 
-The main process is automatally rerun when one operation is done.
+Main process will be automatically re-run when one operation is done.
 
-The Utility.java contains functions are abstracted from reading the input Number/String data.
+Utility.java contains functions are abstracted from reading the input Number/String data.
+
+
