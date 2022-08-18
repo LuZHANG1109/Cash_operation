@@ -8,7 +8,7 @@ public class cash_operation {
 		String details="";
 		int balance=10000;
 		while(isFlag){
-			System.out.println("-----FamilyAccount-----");
+			System.out.println("-----Cash Operations-----");
 			System.out.println("1. List bank account balance");
 			System.out.println("2. Money deposit");
 			System.out.println("3. Money withdrawal");
